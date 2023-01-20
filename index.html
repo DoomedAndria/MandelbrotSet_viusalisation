@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <style>
+            body{
+                background-color: rgb(203, 167, 236);
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+            canvas{
+                margin: 20px;
+                border-radius: 15px;
+            }
+            button{
+                margin: 10px;
+                font-size: 20px;
+                padding: 10px;
+                cursor: pointer;
+                border: 2px gray solid;
+                border-radius: 7px;
+                background-color: rgb(192, 184, 184);
+                font-weight: 600;
+                font-family: Arial, Helvetica, sans-serif;
+                text-transform: uppercase;
+            }
+            button:hover{
+                transition: all 0.25s;
+                color: white;
+                background-color: rgb(148, 54, 236);
+                border: 2px solid transparent;
+            }
+        </style>
+    </head>
+    <body>
+        <canvas id = "canvas" width="500" height="500"></canvas>
+        <button id="but">change color</button>
+        <script src="index.js"></script>
+    </body>
+</html>
